@@ -1,0 +1,11 @@
+[2023-08-08T15:54:12.641-0300] {processor.py:157} INFO - Started process (PID=6355) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2023-08-08T15:54:12.642-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-08-08T15:54:12.642-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:12.642-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2023-08-08T15:54:12.651-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2023-08-08T15:54:12.742-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:12.741-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_complex
+[2023-08-08T15:54:12.751-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:12.751-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_complex
+[2023-08-08T15:54:12.758-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:12.758-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_complex
+[2023-08-08T15:54:12.768-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:12.767-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-08T15:54:12.775-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:12.775-0300] {dag.py:2763} INFO - Creating ORM DAG for example_complex
+[2023-08-08T15:54:12.782-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:12.781-0300] {dag.py:3504} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-08-08T15:54:12.799-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.161 seconds

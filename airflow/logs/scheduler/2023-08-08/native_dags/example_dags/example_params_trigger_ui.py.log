@@ -1,0 +1,11 @@
+[2023-08-08T15:54:15.307-0300] {processor.py:157} INFO - Started process (PID=6370) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-08-08T15:54:15.308-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2023-08-08T15:54:15.308-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:15.308-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-08-08T15:54:15.326-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-08-08T15:54:15.457-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:15.456-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2023-08-08T15:54:15.466-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:15.466-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2023-08-08T15:54:15.473-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:15.473-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2023-08-08T15:54:15.482-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:15.482-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-08T15:54:15.490-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:15.490-0300] {dag.py:2763} INFO - Creating ORM DAG for example_params_trigger_ui
+[2023-08-08T15:54:15.497-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:54:15.497-0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2023-08-08T15:54:15.521-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.216 seconds

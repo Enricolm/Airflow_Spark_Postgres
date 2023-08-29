@@ -1,0 +1,18 @@
+[2023-08-08T15:53:53.082-0300] {processor.py:157} INFO - Started process (PID=6240) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-08-08T15:53:53.082-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-08-08T15:53:53.083-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:53:53.083-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-08-08T15:53:53.089-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-08-08T15:53:53.184-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:53:53.184-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial
+[2023-08-08T15:53:53.198-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:53:53.198-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial
+[2023-08-08T15:53:53.206-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:53:53.205-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial
+[2023-08-08T15:53:53.218-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:53:53.217-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-08T15:53:53.231-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:53:53.231-0300] {dag.py:2763} INFO - Creating ORM DAG for tutorial
+[2023-08-08T15:53:53.239-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:53:53.238-0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial to 2023-08-07T18:53:53.238622+00:00, run_after=2023-08-08T18:53:53.238622+00:00
+[2023-08-08T15:53:53.265-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.186 seconds
+[2023-08-08T15:55:26.570-0300] {processor.py:157} INFO - Started process (PID=6727) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-08-08T15:55:26.571-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-08-08T15:55:26.572-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:55:26.572-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-08-08T15:55:26.578-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-08-08T15:55:26.586-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:55:26.585-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-08T15:55:26.605-0300] {logging_mixin.py:150} INFO - [2023-08-08T15:55:26.605-0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial to 2023-08-07T18:55:26.605647+00:00, run_after=2023-08-08T18:55:26.605647+00:00
+[2023-08-08T15:55:26.628-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
