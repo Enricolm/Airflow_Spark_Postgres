@@ -5,7 +5,7 @@ from pyspark.sql import SparkSession, functions as f
 from datetime import datetime,timedelta
 from time import sleep
 class extracao_finance():
-    def __init__(self,path,start_date,end_date,ticker = "AAPL",**kwargs):
+    def __init__(self,path,start_date,end_date,ticker = "AAPL"):
         self.ticker = ticker
         self.start_date = start_date
         self.end_date = end_date
@@ -14,7 +14,7 @@ class extracao_finance():
             .builder\
             .appName("extracao_Finance")\
             .getOrCreate()
-        super().__init__(**kwargs)
+        super().__init__()
 
 
     def criando_pasta(self):
@@ -57,7 +57,8 @@ class extracao_finance():
         try:
             self.extraindo_dados()
             if hasattr(self, 'dados') and not self.dados.isEmpty():
-                self.dados.coalesce(1).write.mode('overwrite').csv(f'{self.path}', header=True)
+                data_save = self.dados.toPandas()
+                data_save.to_csv(f"{self.path}/data.csv",index=False)
             else: print("Nothing to Add")
         except:
             print("Nothing to Add")
@@ -66,11 +67,11 @@ class extracao_finance():
             self.spark.stop()    
 
 if __name__ == '__main__':
-    start_date= (datetime.now() - timedelta(days=240)).strftime('%Y-%m-%d')
-    end_date= (datetime.now() - timedelta(days=0)).strftime('%Y-%m-%d')
+    start_date= (datetime.now()).strftime('%Y-%m-%d')
+    end_date= (datetime.now())
     Base_folder = join(Path('~/Documents').expanduser(),
                     ('Sprinklr_Airflow/dadosvm/Airflow_Investimento/datalake/{stage}/Data={date}'))
-    extracao = extracao_finance(path=Base_folder.format(stage= 'Raw',date=f'{start_date}'), start_date=start_date, end_date=end_date)
+    extracao = extracao_finance(path=Base_folder.format(stage= 'Raw',date=f'{(end_date - timedelta(days= 1)).strftime("%Y-%m-%d")}'), start_date=start_date, end_date=end_date.strftime('%Y-%m-%d'))
     extracao.execute()
 
 

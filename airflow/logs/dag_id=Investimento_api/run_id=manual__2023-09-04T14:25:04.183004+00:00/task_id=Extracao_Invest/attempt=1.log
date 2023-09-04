@@ -1,0 +1,66 @@
+[2023-09-04T11:25:05.214-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Investimento_api.Extracao_Invest manual__2023-09-04T14:25:04.183004+00:00 [queued]>
+[2023-09-04T11:25:05.225-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Investimento_api.Extracao_Invest manual__2023-09-04T14:25:04.183004+00:00 [queued]>
+[2023-09-04T11:25:05.225-0300] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-09-04T11:25:05.256-0300] {taskinstance.py:1327} INFO - Executing <Task(SparkSubmitOperator): Extracao_Invest> on 2023-09-04 14:25:04.183004+00:00
+[2023-09-04T11:25:05.262-0300] {standard_task_runner.py:57} INFO - Started process 24931 to run task
+[2023-09-04T11:25:05.265-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'Investimento_api', 'Extracao_Invest', 'manual__2023-09-04T14:25:04.183004+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp6syc362l']
+[2023-09-04T11:25:05.268-0300] {standard_task_runner.py:85} INFO - Job 69: Subtask Extracao_Invest
+[2023-09-04T11:25:05.424-0300] {task_command.py:410} INFO - Running <TaskInstance: Investimento_api.Extracao_Invest manual__2023-09-04T14:25:04.183004+00:00 [running]> on host VMEnricolm.myguest.virtualbox.org
+[2023-09-04T11:25:05.596-0300] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Investimento_api' AIRFLOW_CTX_TASK_ID='Extracao_Invest' AIRFLOW_CTX_EXECUTION_DATE='2023-09-04T14:25:04.183004+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-04T14:25:04.183004+00:00'
+[2023-09-04T11:25:05.616-0300] {base.py:73} INFO - Using connection ID 'spark_default' for task execution.
+[2023-09-04T11:25:05.617-0300] {spark_submit.py:340} INFO - Spark-Submit cmd: spark-submit --master local --name Extracao_Invest --queue root.default /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/Scripts/Operators/Raw_Operator.py
+[2023-09-04T11:25:08.072-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:08 WARN Utils: Your hostname, VMEnricolm resolves to a loopback address: 127.0.1.1; using 192.168.0.53 instead (on interface enp0s3)
+[2023-09-04T11:25:08.075-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:08 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2023-09-04T11:25:09.861-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:09 INFO SparkContext: Running Spark version 3.4.1
+[2023-09-04T11:25:09.954-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2023-09-04T11:25:10.054-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO ResourceUtils: ==============================================================
+[2023-09-04T11:25:10.055-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2023-09-04T11:25:10.055-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO ResourceUtils: ==============================================================
+[2023-09-04T11:25:10.055-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SparkContext: Submitted application: extracao_Finance
+[2023-09-04T11:25:10.087-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2023-09-04T11:25:10.091-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO ResourceProfile: Limiting resource is cpu
+[2023-09-04T11:25:10.092-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2023-09-04T11:25:10.159-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SecurityManager: Changing view acls to: enricolm
+[2023-09-04T11:25:10.159-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SecurityManager: Changing modify acls to: enricolm
+[2023-09-04T11:25:10.159-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SecurityManager: Changing view acls groups to:
+[2023-09-04T11:25:10.160-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SecurityManager: Changing modify acls groups to:
+[2023-09-04T11:25:10.161-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: enricolm; groups with view permissions: EMPTY; users with modify permissions: enricolm; groups with modify permissions: EMPTY
+[2023-09-04T11:25:10.439-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO Utils: Successfully started service 'sparkDriver' on port 38333.
+[2023-09-04T11:25:10.478-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SparkEnv: Registering MapOutputTracker
+[2023-09-04T11:25:10.526-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SparkEnv: Registering BlockManagerMaster
+[2023-09-04T11:25:10.558-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2023-09-04T11:25:10.558-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2023-09-04T11:25:10.563-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2023-09-04T11:25:10.589-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-b9c9821a-0d95-48d0-ad4f-2dfaa0332cab
+[2023-09-04T11:25:10.623-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2023-09-04T11:25:10.645-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO SparkEnv: Registering OutputCommitCoordinator
+[2023-09-04T11:25:10.841-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2023-09-04T11:25:10.924-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:10 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2023-09-04T11:25:11.062-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO Executor: Starting executor ID driver on host 192.168.0.53
+[2023-09-04T11:25:11.069-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2023-09-04T11:25:11.098-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44211.
+[2023-09-04T11:25:11.102-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO NettyBlockTransferService: Server created on 192.168.0.53:44211
+[2023-09-04T11:25:11.102-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2023-09-04T11:25:11.110-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.0.53, 44211, None)
+[2023-09-04T11:25:11.115-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.0.53:44211 with 434.4 MiB RAM, BlockManagerId(driver, 192.168.0.53, 44211, None)
+[2023-09-04T11:25:11.119-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.0.53, 44211, None)
+[2023-09-04T11:25:11.120-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:11 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.0.53, 44211, None)
+[2023-09-04T11:25:11.669-0300] {spark_submit.py:491} INFO - Criando pasta
+[2023-09-04T11:25:14.058-0300] {spark_submit.py:491} INFO - AAPL: No price data found, symbol may be delisted (1d 2023-09-04 -> 2023-09-04)
+[2023-09-04T11:25:14.058-0300] {spark_submit.py:491} INFO - No price data found for the given date range.
+[2023-09-04T11:25:14.058-0300] {spark_submit.py:491} INFO - Nothing to Add
+[2023-09-04T11:25:14.059-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2023-09-04T11:25:14.085-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO SparkUI: Stopped Spark web UI at http://192.168.0.53:4040
+[2023-09-04T11:25:14.121-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2023-09-04T11:25:14.135-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO MemoryStore: MemoryStore cleared
+[2023-09-04T11:25:14.135-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO BlockManager: BlockManager stopped
+[2023-09-04T11:25:14.143-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2023-09-04T11:25:14.145-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2023-09-04T11:25:14.158-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO SparkContext: Successfully stopped SparkContext
+[2023-09-04T11:25:14.571-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO ShutdownHookManager: Shutdown hook called
+[2023-09-04T11:25:14.572-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO ShutdownHookManager: Deleting directory /tmp/spark-c1810024-5b06-43db-8759-12544117594c
+[2023-09-04T11:25:14.578-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO ShutdownHookManager: Deleting directory /tmp/spark-ff37abae-cba7-45fc-8fdf-2a30de389e15
+[2023-09-04T11:25:14.582-0300] {spark_submit.py:491} INFO - 23/09/04 11:25:14 INFO ShutdownHookManager: Deleting directory /tmp/spark-c1810024-5b06-43db-8759-12544117594c/pyspark-c9d2a47a-a186-465a-be3b-b5e43df8e6b6
+[2023-09-04T11:25:14.655-0300] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=Investimento_api, task_id=Extracao_Invest, execution_date=20230904T142504, start_date=20230904T142505, end_date=20230904T142514
+[2023-09-04T11:25:14.695-0300] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-09-04T11:25:14.736-0300] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

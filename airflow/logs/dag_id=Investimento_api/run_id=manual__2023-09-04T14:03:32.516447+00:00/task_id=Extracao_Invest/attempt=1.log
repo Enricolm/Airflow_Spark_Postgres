@@ -1,0 +1,30 @@
+[2023-09-04T11:03:33.328-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Investimento_api.Extracao_Invest manual__2023-09-04T14:03:32.516447+00:00 [queued]>
+[2023-09-04T11:03:33.334-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Investimento_api.Extracao_Invest manual__2023-09-04T14:03:32.516447+00:00 [queued]>
+[2023-09-04T11:03:33.334-0300] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-09-04T11:03:33.351-0300] {taskinstance.py:1327} INFO - Executing <Task(SparkSubmitOperator): Extracao_Invest> on 2023-09-04 14:03:32.516447+00:00
+[2023-09-04T11:03:33.355-0300] {standard_task_runner.py:57} INFO - Started process 22390 to run task
+[2023-09-04T11:03:33.358-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'Investimento_api', 'Extracao_Invest', 'manual__2023-09-04T14:03:32.516447+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp9_k6pyxg']
+[2023-09-04T11:03:33.361-0300] {standard_task_runner.py:85} INFO - Job 63: Subtask Extracao_Invest
+[2023-09-04T11:03:33.449-0300] {task_command.py:410} INFO - Running <TaskInstance: Investimento_api.Extracao_Invest manual__2023-09-04T14:03:32.516447+00:00 [running]> on host VMEnricolm.myguest.virtualbox.org
+[2023-09-04T11:03:33.592-0300] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Investimento_api' AIRFLOW_CTX_TASK_ID='Extracao_Invest' AIRFLOW_CTX_EXECUTION_DATE='2023-09-04T14:03:32.516447+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-04T14:03:32.516447+00:00'
+[2023-09-04T11:03:33.609-0300] {base.py:73} INFO - Using connection ID 'spark_default' for task execution.
+[2023-09-04T11:03:33.610-0300] {spark_submit.py:340} INFO - Spark-Submit cmd: spark-submit --master local --name Extracao_Invest --queue root.default /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/Scripts/Operators/Raw_Operator.py
+[2023-09-04T11:03:35.992-0300] {spark_submit.py:491} INFO - 23/09/04 11:03:35 WARN Utils: Your hostname, VMEnricolm resolves to a loopback address: 127.0.1.1; using 192.168.0.53 instead (on interface enp0s3)
+[2023-09-04T11:03:35.996-0300] {spark_submit.py:491} INFO - 23/09/04 11:03:35 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2023-09-04T11:03:37.387-0300] {spark_submit.py:491} INFO - Traceback (most recent call last):
+[2023-09-04T11:03:37.387-0300] {spark_submit.py:491} INFO - File "/home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/Scripts/Operators/Raw_Operator.py", line 74, in <module>
+[2023-09-04T11:03:37.387-0300] {spark_submit.py:491} INFO - extracao = extracao_finance(path=Base_folder.format(stage= 'Raw',date=f'{end_date - timedelta(days= 1)}'), start_date=start_date, end_date=end_date)
+[2023-09-04T11:03:37.387-0300] {spark_submit.py:491} INFO - TypeError: unsupported operand type(s) for -: 'str' and 'datetime.timedelta'
+[2023-09-04T11:03:37.499-0300] {spark_submit.py:491} INFO - 23/09/04 11:03:37 INFO ShutdownHookManager: Shutdown hook called
+[2023-09-04T11:03:37.502-0300] {spark_submit.py:491} INFO - 23/09/04 11:03:37 INFO ShutdownHookManager: Deleting directory /tmp/spark-a253fa0f-bc84-4fc6-81b2-2fc564e06398
+[2023-09-04T11:03:37.576-0300] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.10/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 156, in execute
+    self._hook.submit(self._application)
+  File "/home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.10/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 422, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master local --name Extracao_Invest --queue root.default /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/Scripts/Operators/Raw_Operator.py. Error code is: 1.
+[2023-09-04T11:03:37.580-0300] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=Investimento_api, task_id=Extracao_Invest, execution_date=20230904T140332, start_date=20230904T140333, end_date=20230904T140337
+[2023-09-04T11:03:37.594-0300] {standard_task_runner.py:104} ERROR - Failed to execute job 63 for task Extracao_Invest (Cannot execute: spark-submit --master local --name Extracao_Invest --queue root.default /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/Scripts/Operators/Raw_Operator.py. Error code is: 1.; 22390)
+[2023-09-04T11:03:37.609-0300] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-09-04T11:03:37.642-0300] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

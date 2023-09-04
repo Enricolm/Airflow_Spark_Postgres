@@ -11,12 +11,13 @@ with DAG (dag_id='Investimento_api', start_date=datetime.now(), schedule_interva
         task_id = 'Extracao_Invest',
         application = join(str(Path('~/Documents').expanduser()),
                         ('Sprinklr_Airflow/dadosvm/Airflow_Investimento/Scripts/Operators/Raw_Operator.py')),
-        name = 'Extracao_Invest'
+        name = 'Extracao_Invest',
+        conn_id='spark_default'
     )
 
     PostgresOperator = PostgresOperator(
         task_id = 'Insert_Postgres',
-        sql = f"""COPY Apple_table FROM '{join(Path('~/Documents').expanduser(),f'Sprinklr_Airflow/dadosvm/Airflow_Investimento/datalake/Raw/Data={(datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")}')}' CSV HEADER;""",
+        sql = f"""COPY Apple_table FROM '{join(Path('~/Documents').expanduser(),f'Sprinklr_Airflow/dadosvm/Airflow_Investimento/datalake/Raw/Data={(datetime.now()).strftime("%Y-%m-%d")}')}/data.csv' CSV HEADER;""",
         postgres_conn_id ='postgres_default',
         database = 'Apple_datatable',
         autocommit=True
