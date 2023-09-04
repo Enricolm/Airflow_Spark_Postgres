@@ -1,8 +1,6 @@
-import sys
 import yfinance
 from pathlib import Path
 from os.path import join
-from airflow.models import BaseOperator
 from pyspark.sql import SparkSession, functions as f
 from datetime import datetime,timedelta
 from time import sleep
