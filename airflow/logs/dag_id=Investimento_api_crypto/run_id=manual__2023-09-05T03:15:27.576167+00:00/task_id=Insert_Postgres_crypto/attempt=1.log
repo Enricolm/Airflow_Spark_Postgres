@@ -1,0 +1,20 @@
+[2023-09-05T00:15:58.084-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Investimento_api_crypto.Insert_Postgres_crypto manual__2023-09-05T03:15:27.576167+00:00 [queued]>
+[2023-09-05T00:15:58.138-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Investimento_api_crypto.Insert_Postgres_crypto manual__2023-09-05T03:15:27.576167+00:00 [queued]>
+[2023-09-05T00:15:58.139-0300] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-09-05T00:15:58.173-0300] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): Insert_Postgres_crypto> on 2023-09-05 03:15:27.576167+00:00
+[2023-09-05T00:15:58.177-0300] {standard_task_runner.py:57} INFO - Started process 9368 to run task
+[2023-09-05T00:15:58.181-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'Investimento_api_crypto', 'Insert_Postgres_crypto', 'manual__2023-09-05T03:15:27.576167+00:00', '--job-id', '170', '--raw', '--subdir', 'DAGS_FOLDER/dag_crypto.py', '--cfg-path', '/tmp/tmp5miycfk0']
+[2023-09-05T00:15:58.182-0300] {standard_task_runner.py:85} INFO - Job 170: Subtask Insert_Postgres_crypto
+[2023-09-05T00:15:58.285-0300] {task_command.py:410} INFO - Running <TaskInstance: Investimento_api_crypto.Insert_Postgres_crypto manual__2023-09-05T03:15:27.576167+00:00 [running]> on host VMEnricolm.myguest.virtualbox.org
+[2023-09-05T00:15:58.518-0300] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Investimento_api_crypto' AIRFLOW_CTX_TASK_ID='Insert_Postgres_crypto' AIRFLOW_CTX_EXECUTION_DATE='2023-09-05T03:15:27.576167+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-05T03:15:27.576167+00:00'
+[2023-09-05T00:15:58.519-0300] {sql.py:265} INFO - Executing: COPY BTC_Table FROM '/home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/datalake/Raw/crypto/Data=2023-09-04/data.csv' CSV HEADER;
+[2023-09-05T00:15:58.549-0300] {base.py:73} INFO - Using connection ID 'postgres_BTC' for task execution.
+[2023-09-05T00:15:58.709-0300] {warnings.py:109} WARNING - /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/venv/lib/python3.10/site-packages/airflow/models/connection.py:372: AirflowProviderDeprecationWarning: The "schema" arg has been renamed to "database" as it contained the database name.Please use "database" to set the database name.
+  return hook_class(**{hook.connection_id_attribute_name: self.conn_id}, **hook_params)
+
+[2023-09-05T00:15:58.726-0300] {base.py:73} INFO - Using connection ID 'postgres_BTC' for task execution.
+[2023-09-05T00:15:58.740-0300] {sql.py:375} INFO - Running statement: COPY BTC_Table FROM '/home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/datalake/Raw/crypto/Data=2023-09-04/data.csv' CSV HEADER;, parameters: None
+[2023-09-05T00:15:58.757-0300] {sql.py:384} INFO - Rows affected: 164
+[2023-09-05T00:15:58.773-0300] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=Investimento_api_crypto, task_id=Insert_Postgres_crypto, execution_date=20230905T031527, start_date=20230905T031558, end_date=20230905T031558
+[2023-09-05T00:15:58.825-0300] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-09-05T00:15:58.851-0300] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

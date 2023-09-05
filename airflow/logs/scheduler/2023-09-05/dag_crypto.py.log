@@ -1,0 +1,399 @@
+[2023-09-04T22:22:17.318-0300] {processor.py:157} INFO - Started process (PID=4237) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:22:17.322-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:22:17.324-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:22:17.324-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:22:17.408-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:22:17.733-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:22:17.732-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:22:17.775-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:22:17.775-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:22:17.855-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.555 seconds
+[2023-09-04T22:22:48.105-0300] {processor.py:157} INFO - Started process (PID=4242) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:22:48.107-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:22:48.108-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:22:48.107-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:22:48.120-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:22:48.247-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:22:48.247-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:22:48.268-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:22:48.268-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:22:48.295-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.193 seconds
+[2023-09-04T22:23:18.554-0300] {processor.py:157} INFO - Started process (PID=4248) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:23:18.555-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:23:18.556-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:23:18.556-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:23:18.568-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:23:18.687-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:23:18.687-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:23:18.708-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:23:18.708-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:23:18.738-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.187 seconds
+[2023-09-04T22:23:49.213-0300] {processor.py:157} INFO - Started process (PID=4253) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:23:49.214-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:23:49.216-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:23:49.215-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:23:49.228-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:23:49.350-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:23:49.349-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:23:49.369-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:23:49.368-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:23:49.393-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.184 seconds
+[2023-09-04T22:24:19.753-0300] {processor.py:157} INFO - Started process (PID=4261) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:24:19.754-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:24:19.755-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:24:19.755-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:24:19.767-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:24:19.880-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:24:19.879-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:24:19.899-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:24:19.898-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:24:19.936-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.187 seconds
+[2023-09-04T22:24:50.267-0300] {processor.py:157} INFO - Started process (PID=4271) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:24:50.268-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:24:50.269-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:24:50.269-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:24:50.282-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:24:50.405-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:24:50.405-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:24:50.423-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:24:50.423-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:24:50.449-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.186 seconds
+[2023-09-04T22:25:20.685-0300] {processor.py:157} INFO - Started process (PID=4283) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:25:20.686-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:25:20.687-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:25:20.687-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:25:20.699-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:25:20.832-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:25:20.831-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:25:20.852-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:25:20.851-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:25:20.875-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.194 seconds
+[2023-09-04T22:25:51.186-0300] {processor.py:157} INFO - Started process (PID=4291) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:25:51.189-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:25:51.190-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:25:51.189-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:25:51.203-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:25:51.329-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:25:51.329-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:25:51.349-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:25:51.349-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:25:51.367-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.186 seconds
+[2023-09-04T22:26:21.739-0300] {processor.py:157} INFO - Started process (PID=4296) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:26:21.741-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:26:21.742-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:26:21.742-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:26:21.754-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:26:21.896-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:26:21.896-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:26:21.922-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:26:21.921-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:26:21.948-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.212 seconds
+[2023-09-04T22:46:35.697-0300] {processor.py:157} INFO - Started process (PID=3823) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:46:35.710-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:46:35.712-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:46:35.712-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:46:35.882-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:46:36.392-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:46:36.392-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:46:36.428-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:46:36.427-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:46:36.491-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.811 seconds
+[2023-09-04T22:47:06.784-0300] {processor.py:157} INFO - Started process (PID=3861) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:47:06.788-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T22:47:06.790-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:47:06.790-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:47:06.841-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T22:47:07.073-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:47:07.073-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T22:47:07.108-0300] {logging_mixin.py:150} INFO - [2023-09-04T22:47:07.108-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T22:47:07.140-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.374 seconds
+[2023-09-04T23:55:52.701-0300] {processor.py:157} INFO - Started process (PID=4448) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:55:52.718-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:55:52.720-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:55:52.719-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:55:52.859-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:55:53.441-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:55:53.441-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:55:53.477-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:55:53.477-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:55:53.558-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.873 seconds
+[2023-09-04T23:56:23.821-0300] {processor.py:157} INFO - Started process (PID=4481) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:56:23.826-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:56:23.828-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:56:23.827-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:56:23.876-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:56:24.136-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:56:24.135-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:56:24.170-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:56:24.170-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:56:24.206-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.405 seconds
+[2023-09-04T23:56:54.515-0300] {processor.py:157} INFO - Started process (PID=5074) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:56:54.537-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:56:54.539-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:56:54.538-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:56:54.651-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:56:54.921-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:56:54.921-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:56:54.955-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:56:54.955-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:56:54.983-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.509 seconds
+[2023-09-04T23:57:25.289-0300] {processor.py:157} INFO - Started process (PID=5372) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:57:25.336-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:57:25.402-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:57:25.379-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:57:25.438-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:57:25.873-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:57:25.873-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:57:25.925-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:57:25.925-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:57:26.004-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.720 seconds
+[2023-09-04T23:57:56.256-0300] {processor.py:157} INFO - Started process (PID=5562) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:57:56.285-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:57:56.287-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:57:56.287-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:57:56.406-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:57:56.936-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:57:56.936-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:57:57.037-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:57:57.036-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:57:57.093-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.868 seconds
+[2023-09-04T23:58:27.394-0300] {processor.py:157} INFO - Started process (PID=5685) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:58:27.411-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:58:27.411-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:58:27.411-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:58:27.477-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:58:27.777-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:58:27.777-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:58:27.806-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:58:27.806-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:58:27.887-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.497 seconds
+[2023-09-04T23:58:58.093-0300] {processor.py:157} INFO - Started process (PID=5918) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:58:58.109-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:58:58.145-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:58:58.144-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:58:58.250-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:58:58.617-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:58:58.617-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:58:58.681-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:58:58.681-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:58:58.752-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.662 seconds
+[2023-09-04T23:59:28.944-0300] {processor.py:157} INFO - Started process (PID=6037) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:59:28.946-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:59:28.947-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:59:28.946-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:59:28.959-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:59:29.097-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:59:29.097-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:59:29.124-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:59:29.124-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:59:29.149-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.208 seconds
+[2023-09-04T23:59:59.284-0300] {processor.py:157} INFO - Started process (PID=6053) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:59:59.286-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-04T23:59:59.287-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:59:59.287-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:59:59.301-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-04T23:59:59.435-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:59:59.435-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-04T23:59:59.457-0300] {logging_mixin.py:150} INFO - [2023-09-04T23:59:59.456-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-05T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-04T23:59:59.482-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.202 seconds
+[2023-09-05T00:00:29.633-0300] {processor.py:157} INFO - Started process (PID=6294) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:00:29.652-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:00:29.653-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:00:29.653-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:00:29.669-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:00:29.794-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:00:29.794-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:00:29.815-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:00:29.815-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:00:29.863-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.234 seconds
+[2023-09-05T00:00:59.993-0300] {processor.py:157} INFO - Started process (PID=6395) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:01:00.007-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:01:00.008-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:01:00.007-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:01:00.060-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:01:00.266-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:01:00.266-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:01:00.285-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:01:00.285-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:01:00.331-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.342 seconds
+[2023-09-05T00:01:30.492-0300] {processor.py:157} INFO - Started process (PID=6504) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:01:30.506-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:01:30.506-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:01:30.506-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:01:30.522-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:01:30.665-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:01:30.665-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:01:30.692-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:01:30.691-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:01:30.754-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.266 seconds
+[2023-09-05T00:02:00.909-0300] {processor.py:157} INFO - Started process (PID=6551) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:02:00.913-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:02:00.914-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:02:00.914-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:02:00.928-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:02:01.073-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:02:01.073-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:02:01.099-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:02:01.098-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:02:01.124-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.219 seconds
+[2023-09-05T00:02:31.335-0300] {processor.py:157} INFO - Started process (PID=6598) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:02:31.355-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:02:31.356-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:02:31.355-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:02:31.370-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:02:31.523-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:02:31.523-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:02:31.560-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:02:31.560-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:02:31.582-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.251 seconds
+[2023-09-05T00:03:01.777-0300] {processor.py:157} INFO - Started process (PID=6631) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:03:01.787-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:03:01.788-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:03:01.787-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:03:01.804-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:03:01.974-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:03:01.974-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:03:02.001-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:03:02.001-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:03:02.032-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.258 seconds
+[2023-09-05T00:03:32.252-0300] {processor.py:157} INFO - Started process (PID=6679) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:03:32.269-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:03:32.269-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:03:32.269-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:03:32.290-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:03:32.515-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:03:32.515-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:03:32.571-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:03:32.570-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:03:32.666-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.418 seconds
+[2023-09-05T00:04:02.893-0300] {processor.py:157} INFO - Started process (PID=6866) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:04:02.939-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:04:02.940-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:04:02.939-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:04:02.985-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:04:03.618-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:04:03.618-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:04:03.653-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:04:03.652-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:04:03.683-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.919 seconds
+[2023-09-05T00:04:33.998-0300] {processor.py:157} INFO - Started process (PID=7030) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:04:34.000-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:04:34.001-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:04:34.001-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:04:34.015-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:04:34.197-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:04:34.197-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:04:34.228-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:04:34.228-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:04:34.270-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.277 seconds
+[2023-09-05T00:05:04.448-0300] {processor.py:157} INFO - Started process (PID=7127) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:05:04.450-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:05:04.451-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:05:04.450-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:05:04.464-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:05:04.593-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:05:04.592-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:05:04.616-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:05:04.616-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:05:04.640-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.196 seconds
+[2023-09-05T00:05:34.783-0300] {processor.py:157} INFO - Started process (PID=7225) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:05:34.785-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:05:34.785-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:05:34.785-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:05:34.798-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:05:34.919-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:05:34.918-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:05:34.941-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:05:34.940-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:05:34.960-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.181 seconds
+[2023-09-05T00:06:05.102-0300] {processor.py:157} INFO - Started process (PID=7353) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:06:05.104-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:06:05.105-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:06:05.105-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:06:05.121-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:06:05.267-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:06:05.267-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:06:05.291-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:06:05.291-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:06:05.319-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.221 seconds
+[2023-09-05T00:06:35.471-0300] {processor.py:157} INFO - Started process (PID=7452) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:06:35.476-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:06:35.477-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:06:35.477-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:06:35.491-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:06:35.629-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:06:35.629-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:06:35.649-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:06:35.649-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:06:35.676-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.210 seconds
+[2023-09-05T00:07:05.845-0300] {processor.py:157} INFO - Started process (PID=7551) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:07:05.847-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:07:05.849-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:07:05.848-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:07:05.866-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:07:06.018-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:07:06.018-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:07:06.040-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:07:06.040-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:07:06.125-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.286 seconds
+[2023-09-05T00:07:36.276-0300] {processor.py:157} INFO - Started process (PID=7650) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:07:36.279-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:07:36.280-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:07:36.280-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:07:36.295-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:07:36.427-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:07:36.427-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:07:36.448-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:07:36.448-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:07:36.476-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.205 seconds
+[2023-09-05T00:08:06.651-0300] {processor.py:157} INFO - Started process (PID=7742) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:08:06.652-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:08:06.653-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:08:06.653-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:08:06.668-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:08:06.798-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:08:06.797-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:08:06.822-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:08:06.822-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:08:06.845-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.200 seconds
+[2023-09-05T00:08:36.993-0300] {processor.py:157} INFO - Started process (PID=7840) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:08:36.995-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:08:36.996-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:08:36.996-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:08:37.009-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:08:37.137-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:08:37.137-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:08:37.164-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:08:37.163-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:08:37.195-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.208 seconds
+[2023-09-05T00:09:07.336-0300] {processor.py:157} INFO - Started process (PID=7934) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:09:07.337-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:09:07.338-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:09:07.338-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:09:07.354-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:09:07.509-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:09:07.508-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:09:07.529-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:09:07.529-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:09:07.547-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.215 seconds
+[2023-09-05T00:09:37.690-0300] {processor.py:157} INFO - Started process (PID=8030) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:09:37.691-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:09:37.692-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:09:37.692-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:09:37.707-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:09:37.838-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:09:37.838-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:09:37.862-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:09:37.862-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:09:37.889-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.203 seconds
+[2023-09-05T00:10:08.062-0300] {processor.py:157} INFO - Started process (PID=8124) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:10:08.063-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:10:08.065-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:10:08.065-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:10:08.079-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:10:08.218-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:10:08.218-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:10:08.240-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:10:08.240-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:10:08.265-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.207 seconds
+[2023-09-05T00:10:38.405-0300] {processor.py:157} INFO - Started process (PID=8218) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:10:38.407-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:10:38.408-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:10:38.407-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:10:38.422-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:10:38.546-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:10:38.546-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:10:38.568-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:10:38.568-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:10:38.592-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.191 seconds
+[2023-09-05T00:11:08.726-0300] {processor.py:157} INFO - Started process (PID=8337) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:11:08.729-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:11:08.730-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:11:08.729-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:11:08.745-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:11:08.875-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:11:08.875-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:11:08.899-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:11:08.899-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:11:08.921-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.198 seconds
+[2023-09-05T00:11:39.072-0300] {processor.py:157} INFO - Started process (PID=8432) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:11:39.074-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:11:39.076-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:11:39.075-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:11:39.092-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:11:39.219-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:11:39.219-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:11:39.244-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:11:39.243-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:11:39.269-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.201 seconds
+[2023-09-05T00:12:09.405-0300] {processor.py:157} INFO - Started process (PID=8525) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:12:09.407-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:12:09.409-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:12:09.408-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:12:09.423-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:12:09.553-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:12:09.553-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:12:09.574-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:12:09.574-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:12:09.594-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.192 seconds
+[2023-09-05T00:12:39.742-0300] {processor.py:157} INFO - Started process (PID=8617) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:12:39.744-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:12:39.745-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:12:39.745-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:12:39.760-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:12:39.882-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:12:39.882-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:12:39.903-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:12:39.903-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:12:39.922-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.184 seconds
+[2023-09-05T00:13:10.189-0300] {processor.py:157} INFO - Started process (PID=8701) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:13:10.231-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:13:10.232-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:13:10.232-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:13:10.255-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:13:10.386-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:13:10.386-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:13:10.405-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:13:10.405-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:13:10.460-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.280 seconds
+[2023-09-05T00:13:40.653-0300] {processor.py:157} INFO - Started process (PID=8807) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:13:40.656-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:13:40.657-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:13:40.657-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:13:40.684-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:13:40.820-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:13:40.820-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:13:40.845-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:13:40.844-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:13:40.874-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.224 seconds
+[2023-09-05T00:14:11.030-0300] {processor.py:157} INFO - Started process (PID=8901) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:14:11.032-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:14:11.033-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:14:11.033-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:14:11.058-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:14:11.237-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:14:11.236-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:14:11.265-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:14:11.265-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:14:11.317-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.295 seconds
+[2023-09-05T00:14:41.491-0300] {processor.py:157} INFO - Started process (PID=8997) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:14:41.493-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:14:41.496-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:14:41.495-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:14:41.509-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:14:41.654-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:14:41.654-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:14:41.688-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:14:41.687-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:14:41.726-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.238 seconds
+[2023-09-05T00:15:06.722-0300] {processor.py:157} INFO - Started process (PID=9071) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:15:06.723-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:15:06.725-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:15:06.724-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:15:06.746-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:15:06.789-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:15:06.789-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:15:06.829-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:15:06.829-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:15:06.872-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.156 seconds
+[2023-09-05T00:15:37.169-0300] {processor.py:157} INFO - Started process (PID=9261) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:15:37.246-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:15:37.275-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:15:37.247-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:15:37.357-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:15:38.001-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:15:38.001-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:15:38.068-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:15:38.067-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:15:38.128-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.986 seconds
+[2023-09-05T00:16:08.726-0300] {processor.py:157} INFO - Started process (PID=9385) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:16:08.743-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:16:08.745-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:16:08.744-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:16:08.765-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:16:08.943-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:16:08.942-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:16:08.973-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:16:08.973-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:16:09.010-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.297 seconds
+[2023-09-05T00:16:39.174-0300] {processor.py:157} INFO - Started process (PID=9414) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:16:39.176-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:16:39.178-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:16:39.177-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:16:39.193-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:16:39.342-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:16:39.342-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:16:39.371-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:16:39.370-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:16:39.397-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.228 seconds
+[2023-09-05T00:17:09.548-0300] {processor.py:157} INFO - Started process (PID=9441) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:17:09.549-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:17:09.550-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:17:09.550-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:17:09.565-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:17:09.719-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:17:09.719-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:17:09.743-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:17:09.743-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:17:09.775-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.233 seconds
+[2023-09-05T00:17:39.909-0300] {processor.py:157} INFO - Started process (PID=9469) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:17:39.911-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:17:39.913-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:17:39.913-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:17:39.927-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:17:40.059-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:17:40.058-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:17:40.082-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:17:40.081-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:17:40.101-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.195 seconds
+[2023-09-05T00:18:10.261-0300] {processor.py:157} INFO - Started process (PID=9533) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:18:10.263-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:18:10.264-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:18:10.263-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:18:10.278-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:18:10.410-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:18:10.409-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:18:10.432-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:18:10.432-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:18:10.459-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.203 seconds
+[2023-09-05T00:18:40.648-0300] {processor.py:157} INFO - Started process (PID=9546) to work on /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:18:40.649-0300] {processor.py:826} INFO - Processing file /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py for tasks to queue
+[2023-09-05T00:18:40.650-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:18:40.650-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:18:40.664-0300] {processor.py:836} INFO - DAG(s) dict_keys(['Investimento_api_crypto']) retrieved from /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py
+[2023-09-05T00:18:40.797-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:18:40.797-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-05T00:18:40.820-0300] {logging_mixin.py:150} INFO - [2023-09-05T00:18:40.820-0300] {dag.py:3504} INFO - Setting next_dagrun for Investimento_api_crypto to 2023-09-06T00:00:00+00:00, run_after=2023-09-07T00:00:00+00:00
+[2023-09-05T00:18:40.848-0300] {processor.py:179} INFO - Processing /home/enricolm/Documents/Sprinklr_Airflow/dadosvm/Airflow_Investimento/airflow/dags/dag_crypto.py took 0.204 seconds

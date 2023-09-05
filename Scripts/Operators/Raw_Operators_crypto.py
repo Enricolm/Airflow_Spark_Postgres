@@ -5,7 +5,7 @@ from pyspark.sql import SparkSession, functions as f
 from datetime import datetime,timedelta
 from time import sleep
 class extracao_finance():
-    def __init__(self,path,start_date,end_date,ticker = "AAPL"):
+    def __init__(self,path,start_date,end_date,ticker = "BTC"):
         self.ticker = ticker
         self.start_date = start_date
         self.end_date = end_date
@@ -26,7 +26,7 @@ class extracao_finance():
     def extraindo_dados(self): 
         sleep(2)
         try:    
-            dados_hist = yfinance.Ticker(ticker="AAPL").history(
+            dados_hist = yfinance.Ticker(ticker="BTC").history(
                 interval="1d",
                 start=self.start_date,
                 end= self.end_date,         
@@ -70,7 +70,7 @@ if __name__ == '__main__':
     start_date= (datetime.now() - timedelta(days=240)).strftime('%Y-%m-%d')
     end_date= (datetime.now())
     Base_folder = join(Path('~/Documents').expanduser(),
-                    ('Sprinklr_Airflow/dadosvm/Airflow_Investimento/datalake/{stage}/stocks/Data={date}'))
+                    ('Sprinklr_Airflow/dadosvm/Airflow_Investimento/datalake/{stage}/crypto/Data={date}'))
     extracao = extracao_finance(path=Base_folder.format(stage= 'Raw',date=f'{(end_date - timedelta(days= 1)).strftime("%Y-%m-%d")}'), start_date=start_date, end_date=end_date.strftime('%Y-%m-%d'))
     extracao.execute()
 
